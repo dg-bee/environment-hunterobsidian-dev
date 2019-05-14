@@ -1,0 +1,4 @@
+datadog:
+  apiKey: vault:gitOps/dg-bee/environment-hunterobsidian-dev/datadog-apikey-secret:token-passthrough
+  logEnabled: false
+  site: datadoghq.com
