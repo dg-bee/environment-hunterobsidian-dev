@@ -1,0 +1,35 @@
+apiVersion: v1
+data:
+  ca.crt: |
+    -----BEGIN CERTIFICATE-----
+    MIIDCzCCAfOgAwIBAgIQV28xN6sHJw7p1Rfgs8grCDANBgkqhkiG9w0BAQsFADAv
+    MS0wKwYDVQQDEyQyZTE1Mjc3OS05OWE3LTRkOGEtOTdkYi1jMmJiYjQwZjc1ZWUw
+    HhcNMTkwNTE0MTM0OTQzWhcNMjQwNTEyMTQ0OTQzWjAvMS0wKwYDVQQDEyQyZTE1
+    Mjc3OS05OWE3LTRkOGEtOTdkYi1jMmJiYjQwZjc1ZWUwggEiMA0GCSqGSIb3DQEB
+    AQUAA4IBDwAwggEKAoIBAQC6laY0TBt8aLuILVlRYPLWHlLqBYxB+yfVSgIN98jx
+    rQVVveC35jZJQEmwLVUIhNc6NTIFXEMBiCmSJZkCyr2iMs6PtaVozNgtp7a4Od7s
+    SJYlv1neRBeGpOehrKpL88/1IyAj+Fmrsqy2X4RmrX/2M1/1jC1RRw6jQnGBkkor
+    bSRmTj/2eWKe1LEQUpKF5T/jj/uNc54m9+xMJcWmBNVWsQdvGCoti9tcx9IUPDY4
+    4I3dfJUMMvC+PXZirljAOBpZhkzvVqkDXqKGn41ldMKz6ig4LmszLv/hdXemXbPX
+    cHUweReN0e2dvS2Ir+0IKPk1pnsd98mpaBy2UATft4+dAgMBAAGjIzAhMA4GA1Ud
+    DwEB/wQEAwICBDAPBgNVHRMBAf8EBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQAu
+    +DY2XTF4ZGEyarKpl4jLyoOcXOqfV/LZ3UIiEFpsAeGVL8B80hkdakfEb160V60R
+    Y89DAdoQpwccvT/NT3StdFBeJvNzb0gxNQkiF79mmkOL2Bns/3VJCh87PYIAjEwC
+    2RFo9UC27gF+a0uxa7BFEO0SYpHojp6ckSt8TFrKKmoTKu5geNfRU9QPtqRXhaCC
+    L4V1R9cIq3y0aJKcnumH0JDnzvgfdUQkn8FuYUvXFbmBKbBBc+WapT4Cx0G7jihL
+    psh8FDrIVnTMC8Q/abuiiWr6TTMEb3YZFqgku4Nn9gam1VU/MvKR1RryADy3QZOW
+    2M1+s14AKovkd7ws+Zbu
+    -----END CERTIFICATE-----
+  clusterName: hunterobsidian
+  jx-install-version: 2.0.0-dev+df925b7dc
+  kubeProvider: gke
+  projectID: apps-dev-229310
+  region: ""
+  secretsLocation: vault
+  server: https://34.76.138.207
+  systemVaultName: jx-vault-hunterobsidia
+  zone: europe-west1-c
+kind: ConfigMap
+metadata:
+  creationTimestamp: null
+  name: jx-install-config
